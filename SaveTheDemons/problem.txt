@@ -1,0 +1,41 @@
+You are stuck in Hell.There are n demons in Hell with power level of ith demon being i. Demons are violent creatures, they spend their day fighting with other demons. But they are too coward to initiate figths with the demons who have more power than them. Being overconfident, a demon currently participating in a fight will not attack till his power level is less than that of his opponent. Each attack reduces the opponent demon’s power level by the power of attacking demon. The fight ends when the power level of some demon, in the fight, reaches 1 or 0. When the fight ends with the power level of some demon being 1, we will call the fight indecisive else we call it decisive. 
+
+You are stuck in hell and the only way out is to tell each demon how many fights, that can be initiated by him, will be indecisive?  
+
+For example, 
+
+Scenario 1 
+
+A fight between two demons A and B, with power level 6 and 2, progresses as follows- 
+
+A will initiate the fight but he will not attack first (owing to his higher power level). B attacks A, A’s power level becomes 4, B still has lower power level so he attacks again, A’s power level becomes 2. Now anyone can attack. Let’s say A attacks, power level of B becomes 0. So the fight is decisive. 
+
+Scenario 2 
+
+A fight between two monsters A and B, with power level 5 and 2, progresses as follows- 
+
+A will initiate the fight. B attacks A, A’s power level becomes 3, B still has lower power level so he attacks again, A’s power level becomes 1. Power level of A becomes 1. So the fight is indecisive. 
+
+
+
+Input: 
+
+N 
+
+Output:
+
+For i, 2<=i<=N, print the number of fights initiated by the ith demon that will be indecisive, in a new line. 
+
+Example 
+
+Input: 5 
+
+Output:   
+
+1 
+
+2 
+
+2 
+
+4 
